@@ -27,3 +27,46 @@ export const BlueArowIcon = () => {
     </svg>
   );
 };
+export const PinkIcon = () => {
+  return (
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" fill="#E74694"/>
+</svg>
+
+  );
+};
+export const YlIcon = () => {
+  return (
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" fill="#FDBA8C"/>
+</svg>
+
+
+  );
+};
+export const LigtGreenIcon = () => {
+  return (
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" fill="#16BDCA"/>
+</svg>
+
+
+  );
+};
+export const OrengIcon = () => {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" fill="#F2901C"/>
+</svg>
+
+  );
+};
+export const BigBlueIcon = () => {
+  return (
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" fill="#1C64F2"/>
+</svg>
+
+
+  );
+};

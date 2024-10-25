@@ -4,20 +4,18 @@ import { GeldIcon, VectorIcon } from "../icons/icons";
 
 export const Load = ({ onLoadComplete }) => {
   useEffect(() => {
-    // Set a timeout for 5 seconds
+  
     const timer = setTimeout(() => {
-      // Check if onLoadComplete is a function before calling it
+   
       if (typeof onLoadComplete === "function") {
-        onLoadComplete(); // Call the function to switch to the dashboard
+        onLoadComplete(); 
       } else {
-        console.error("onLoadComplete is not a function");
+      
       }
     }, 5000);
 
-    // Cleanup timer on component unmount
     return () => clearTimeout(timer);
-  }, [onLoadComplete]); // Add onLoadComplete as a dependency
-
+  }, [onLoadComplete]); 
   return (
     <div className="flex justify-center items-center w-[1440px] h-screen py-[404px] px-0">
       <div className="w-48 h-56 flex flex-col items-center">

@@ -3,15 +3,7 @@
 import { HeadIcon } from "@/svg/head";
 import Link from "next/link";
 export const Login = () => {
-  const BACKEND_ENDPOINT = "http://localhost:3000/api/login";
-
   const handleOnSubmit = async (event) => {
-    event.preventDefault();
-    const userData = {
-      name: event.target.name.value,
-      password: event.target.password.value,
-    };
-
     const option = {
       method: "POST",
       headers: {
@@ -56,7 +48,7 @@ export const Login = () => {
                     className=" w-[384px] h-[48px] bg-[#F3F4F6] pl-10 rounded-xl border border-gray-300"
                     placeholder="Password"
                   />
-                  <Link href={`loading`}>
+                  <Link href={`dashbord`}>
                     <button className="text-white text-[20px] font-bold bg-[#0166FF] hover:bg-blue-400 rounded-[20px]  w-[384px] h-[48px] ">
                       Log in
                     </button>

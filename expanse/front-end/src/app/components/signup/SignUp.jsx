@@ -3,10 +3,10 @@
 import { HeadIcon } from "@/svg/head";
 import Link from "next/link";
 import { useState, useRef } from "react";
-import { useRouter } from "next/navigation"; // Import useRouter
+import { useRouter } from "next/navigation"; 
 
 export const SignUp = () => {
-  const BACKEND_ENDPOINT = "http://localhost:8888/sign-up";
+
   const [showPassword, setShowPassword] = useState(false);
   const [showRePassword, setReShowPassword] = useState(false);
 
@@ -14,7 +14,7 @@ export const SignUp = () => {
   const confirmPwRef = useRef(null);
   const alertTextRef = useRef(null);
   const alertIconRef = useRef(null);
-  const router = useRouter(); // Initialize router
+  const router = useRouter();
 
   const handleOnSubmit = async (event) => {
     event.preventDefault();
@@ -40,22 +40,7 @@ export const SignUp = () => {
       body: JSON.stringify(userData),
     };
 
-    try {
-      const response = await fetch(BACKEND_ENDPOINT, option);
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      const data = await response.json();
-      console.log(data);
 
-      // Redirect to login page upon successful signup
-      router.push("/"); // Adjust the path if your login page is under a different route
-    } catch (error) {
-      console.error("Fetch error:", error);
-      alertTextRef.current.innerText = "An error occurred. Please try again.";
-      alertIconRef.current.style.display = "block";
-      alertTextRef.current.style.color = "#D93025";
-    }
   };
 
   return (
