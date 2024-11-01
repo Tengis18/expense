@@ -1,11 +1,12 @@
 import { Dashboard } from "../components/dashbord/Dashbord";
-import { Reacord } from "../components/dashbord/Reacord";
+import { Reacord } from "../components/record/Reacord";
+
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-white">
       <Dashboard />
-      <Reacord />
+     <Reacord/>
     </div>
   );
 }

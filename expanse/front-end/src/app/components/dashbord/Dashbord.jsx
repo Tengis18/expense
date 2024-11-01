@@ -2,11 +2,11 @@ import { HeadIcon } from "@/svg/head";
 import { PluseIcon } from "@/svg/plus";
 import React from "react";
 import Link from "next/link";
-import { Dashboards } from "./Dashbords";
+
 
 export const Dashboard = () => {
   return (
-    <div>
+    <div >
       <div className="flex justify-between">
         <div className="flex ml-32 mt-10 gap-5">
           <button>

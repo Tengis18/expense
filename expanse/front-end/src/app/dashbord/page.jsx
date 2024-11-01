@@ -3,9 +3,10 @@ import { Dashboards } from "../components/dashbord/Dashbords";
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-white">
       <Dashboard />
       <Dashboards />
+      
     </div>
   );
 }

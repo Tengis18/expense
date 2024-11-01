@@ -15,7 +15,7 @@ export default function Home() {
     }
   }, [router]);
   return (
-    <div>
+    <div className="bg-white">
       <Login />
     </div>
   );
