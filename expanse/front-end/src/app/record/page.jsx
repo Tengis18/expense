@@ -7,6 +7,7 @@ export default function Page() {
     <div className="bg-white">
       <Dashboard />
      <Reacord/>
+     
     </div>
   );
 }

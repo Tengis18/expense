@@ -13,11 +13,11 @@ export const Dashboard = () => {
             <HeadIcon />
           </button>
           <Link href={`/dashbord`}>
-            <button className="hover:font-bold text-[16px]">Dashbord</button>
+            <button className="hover:font-bold text-[16px] text-black">Dashbord</button>
           </Link>
 
           <Link href={`/record`}>
-            <button className="hover:font-bold">Records</button>
+            <button className="hover:font-bold text-black">Records</button>
           </Link>
         </div>
         <div className="flex gap-10 mt-5 mr-32">

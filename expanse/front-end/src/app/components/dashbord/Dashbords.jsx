@@ -27,7 +27,7 @@ export const Dashboards = () => {
       </div>
 
       <div>
-        <div className=" bg-white w-[384px] h-[56px] rounded-t-xl border flex gap-2  border-gray-200 pt-5 pl-8">
+        <div className=" bg-white w-[384px] h-[56px] rounded-t-xl border flex gap-2  border-gray-200 pt-5 pl-8 text-black font-bold">
           <p className="mt-2">
             <GreendotIcon />
           </p>
@@ -35,14 +35,14 @@ export const Dashboards = () => {
         </div>
         <div className="bg-white w-[384px] h-[160px] rounded-b-xl border border-gray-200 pt-5 pl-8">
           <div>
-            <p className="text-[32px] font-bold">1,200,000₮</p>
+            <p className="text-[32px] text-black font-bold ">1,200,000₮</p>
             <p className="text-[18px] text-[#64748B]">Your Income Amount</p>
           </div>
           <div className="flex gap-3">
             <p className="mt-[22px] ">
               <GreenArowIcon />
             </p>
-            <p className="text-[Your Income Amount] mt-5 text-[18px]">
+            <p className="text-[Your Income Amount] mt-5 text-[18px] text-black font-bold">
               32 % from last month.
             </p>
           </div>
@@ -50,7 +50,7 @@ export const Dashboards = () => {
       </div>
 
       <div>
-        <div className=" bg-white w-[384px] h-[56px] rounded-t-xl flex gap-2 border  border-gray-200 pt-5 pl-8">
+        <div className=" bg-white w-[384px] h-[56px] rounded-t-xl flex gap-2 border  border-gray-200 pt-5 pl-8 text-black font-bold">
           <p className="mt-2">
             <BluedotIcon />
           </p>
@@ -58,14 +58,14 @@ export const Dashboards = () => {
         </div>
         <div className="bg-white w-[384px] h-[160px] rounded-b-xl border border-gray-200 pt-5 pl-8">
           <div>
-            <p className="text-[32px] font-bold">1,200,000₮</p>
+            <p className="text-[32px] text-black font-bold">1,200,000₮</p>
             <p className="text-[18px] text-[#64748B]">Your expence Amount</p>
           </div>
           <div className="flex gap-3">
             <p className="mt-[22px] ">
               <BlueArowIcon />
             </p>
-            <p className="t] mt-5 text-[18px]">32% from last month.</p>
+            <p className="t] mt-5 text-[18px] text-black font-bold">32% from last month.</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ export const Dashboards = () => {
 <div className="flex justify-center items-center mt-20 gap-10">
     <div>
     <div className="w-[588px] h-[56px] bg-white border border-gray-200 rounded-t-xl">
-      <h1 className="font-bold pt-5 pl-10">Income - Expense</h1>
+      <h1 className="text-black font-bold pt-5 pl-10 ">Income - Expense</h1>
     </div>
  
     <div className="w-[588px] h-[226px] flex bg-white border border-gray-200 rounded-b-xl">
@@ -92,7 +92,7 @@ export const Dashboards = () => {
 
  <div>
     <div className="w-[588px] h-[56px] flex justify-between bg-white border border-gray-200 rounded-t-xl " >
-      <h1 className="font-bold pt-5 pl-10">Income - Expense</h1>
+      <h1 className="text-black font-bold pt-5 pl-10">Income - Expense</h1>
       <h1 className="text-[#6B7280] pt-5 pr-10">Jun 1 - Nov 30</h1>
     </div>
 
@@ -102,7 +102,7 @@ export const Dashboards = () => {
       <div >
      <DonotChard/>
       </div>
-        <div className="flex flex-col gap-3  ml-10">
+        <div className="flex flex-col gap-3  ml-10 text-black " >
         <div className="flex justify-between">
           <div className="flex gap-1">
             <h1 className="mt-[7px]"><BigBlueIcon/></h1>  
@@ -152,7 +152,7 @@ export const Dashboards = () => {
   </div>
 </div>
 
-    <div className="flex flex-col justify-center items-center pt-10 ">  
+    <div className="flex flex-col justify-center items-center pt-10 text-black ">  
       <div className="w-[1200px] h-[56px]  bg-white  border border-gray-200 rounded-t-xl">
         <h1 className="font-bold mt-5 ml-10">Last Records</h1>
       </div>
@@ -162,7 +162,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
 
@@ -171,7 +171,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
 
@@ -180,7 +180,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
         </div> 
 
          <div className="flex justify-between carousel-item">
@@ -188,7 +188,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
           <div className="flex justify-between carousel-item">
@@ -196,7 +196,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
           <div className="flex justify-between carousel-item">
@@ -204,7 +204,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
           <div className="flex justify-between  carousel-item">
@@ -212,7 +212,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16]pt-10 mr-10">- 1,000₮</h1>
           </div>
 
           <div className="flex justify-between carousel-item">
@@ -220,7 +220,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div> 
 
           <div className="flex justify-between carousel-item">
@@ -228,7 +228,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-green-500 pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
       </div>
       </div>
