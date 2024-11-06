@@ -19,7 +19,7 @@ export const Login = () => {
 
   return (
     <div className="w-full">
-      <div className="container grid grid-row grid-flow-col gap-4">
+      <div className="container grid grid-row grid-flow-col gap-4 text-black">
         <div className="flex items-center justify-center ">
           <div className="flex items-center justify-center pl-52  w-[1220px] h-[1020px]">
             <div className="flex justify-center items-center flex-col w-[384px] h-[426px]">

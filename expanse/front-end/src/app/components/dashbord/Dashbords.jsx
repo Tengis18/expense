@@ -9,16 +9,16 @@ import { DonotChard } from "./Donotbranch";
 export const Dashboards = () => {
 
   return (
-    <div className=" bg-slate-100 h-[1400px] mt-10">
-      <div className="flex justify-center gap-8 pt-20">
-      <div className="w-[384px] h-[216px] rounded-xl  bg-[#0166FF] text-white">
+    <div className=" bg-slate-100 h-[1300px]  flex flex-col items-center pt-10 mt-10">
+      <div className="flex  w-[1200px] gap-8 ">
+      <div className="w-[384px] h-[216px] rounded-xl   bg-[#0166FF] text-white">
         <div className="flex gap-3 font-bold pt-5 ml-5 z-10">
           <h1 className="ml-3">
             <HeadWhitIcon />
           </h1>
           <h1 className="text-[22px]">Geld</h1>
         </div>
-        <div className=" z-10">
+        <div >
           <h1 className="mt-20 ml-5 text-gray-400">
             Cash
             <p className="text-white font-bold text-[24px]"> 10,000,00</p>
@@ -212,7 +212,7 @@ export const Dashboards = () => {
           <h1 className="mt-[5px]"><HouseIcon/></h1>
           <h1 className=""> Lending & Renting <p className="text-gray-400">3 hours ago</p></h1>
           </div>
-          <h1 className="text-[#84CC16]pt-10 mr-10">- 1,000₮</h1>
+          <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
 
           <div className="flex justify-between carousel-item">

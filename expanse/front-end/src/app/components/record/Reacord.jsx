@@ -6,9 +6,9 @@ import { EyeIcon } from "@/svg/Eyes";
 export const Reacord = () => {
  
     return (
-  <div className=" bg-gray-100 mt-10 ">
-    <div className="pt-10 flex">
-    <div className="w-[282px] h-[990px] bg-white ml-24 rounded-xl">
+  <div className=" bg-gray-100 mt-10  flex justify-center">
+    <div className="pt-10 w-[1200px] flex ">
+    <div className="w-[282px] h-[990px] bg-white  rounded-xl">
       <h1 className="text-[24px] font-bold ml-5 text-black pt-5">Records</h1>
       <div className="w-[250px] h-[32px] bg-blue-600 rounded-xl flex justify-center items-center ml-2 mt-5 hover:bg-blue-400"> 
       <button className="text-white ">+  Add</button>

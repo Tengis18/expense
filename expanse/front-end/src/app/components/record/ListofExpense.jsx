@@ -5,8 +5,8 @@ import { FoodIcon, HouseIcon } from "@/svg/Home";
 export const ListofExpense = () => {
 
   return (
-    <div className="flex flex-col w-full">
-      <div className=" ml-10 flex justify-between  mr-[150px] ">
+    <div className="flex flex-col ">
+      <div className=" ml-10 flex justify-between ">
         <div className="flex  gap-5">
         <button className="bg-slate-300 w-[32px] h-[32px] rounded-lg flex justify-center items-center" ><LeftIcon/></button>
           <h1 className="text-black">Last 30 days</h1>
@@ -17,9 +17,9 @@ export const ListofExpense = () => {
             <button> <DownIcon/></button>
             </div>
          </div>
-         <div className="pt-10 ">
-          <h1 className="ml-10 text-black font-bold ">Today</h1>
-          <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+         <div className="mt-14  carousel carousel-vertical h-[950px] ">
+          <h1 className="ml-10 carousel-item text-black font-bold ">Today</h1> 
+          <div className="ml-10 carousel-item mt-5 w-[895px] h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><HouseIcon/> </h1>
             <div className="pt-2 ml-5">
@@ -30,7 +30,7 @@ export const ListofExpense = () => {
               + 1,000₮
             </div>
             </div>
-              <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+              <div className="ml-10 carousel-item mt-5  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
@@ -40,31 +40,31 @@ export const ListofExpense = () => {
             <div className="text-red-500 mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10 carousel-item mt-5  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10 carousel-item mt-5  w-[895px] h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10  carousel-item mt-5  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
@@ -74,67 +74,78 @@ export const ListofExpense = () => {
             
             <div className="pt-10 ">
           <h1 className="ml-10 text-black font-bold ">Yesterday</h1>
-          <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+          <div className="ml-10  mt-5 carousel-item  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
             </div>
-              <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+              <div className="ml-10  mt-5 carousel-item w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10  mt-5 carousel-item  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10  mt-5  w-[895px] carousel-item  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
-            </div> <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            </div> <div className="ml-10  mt-5  w-[895px] carousel-item  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
             </div>
             </div> 
-            <div className="ml-10  mt-5 w-full h-[64px] bg-white  rounded-lg flex justify-between">
+            <div className="ml-10  mt-5 w-[895px]  h-[64px] carousel-item bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-[#EAB308] mt-5 mr-5">
               - 1,000₮
+            </div>
+            </div>
+            <div className="ml-10 carousel-item mt-5 w-[895px] h-[64px] bg-white  rounded-lg flex justify-between">
+            <div className="flex">
+            <h1 className="ml-5 pt-3"><HouseIcon/> </h1>
+            <div className="pt-2 ml-5">
+            <h1 className="text-black ">Lending & Renting</h1>
+            <p>14:00</p>
+            </div></div>
+            <div className="text-green-500 mt-5 mr-5">
+              + 1,000₮
             </div>
             </div>
             </div>
