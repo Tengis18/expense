@@ -42,7 +42,7 @@ export const Dashboards = () => {
             <p className="mt-[22px] ">
               <GreenArowIcon />
             </p>
-            <p className="text-[Your Income Amount] mt-5 text-[18px] text-black font-bold">
+            <p className="text-[Your Income Amount] mt-5 text-[18px] text-black ">
               32 % from last month.
             </p>
           </div>
@@ -65,7 +65,7 @@ export const Dashboards = () => {
             <p className="mt-[22px] ">
               <BlueArowIcon />
             </p>
-            <p className="t] mt-5 text-[18px] text-black font-bold">32% from last month.</p>
+            <p className="t] mt-5 text-[18px] text-black  ">32% from last month.</p>
           </div>
         </div>
       </div>
