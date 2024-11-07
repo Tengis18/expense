@@ -231,6 +231,7 @@ export const Dashboards = () => {
           <h1 className="text-[#84CC16] pt-10 mr-10">- 1,000₮</h1>
           </div>
       </div>
+  
       </div>
     </div>
   );

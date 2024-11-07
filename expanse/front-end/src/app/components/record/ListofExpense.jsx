@@ -27,14 +27,14 @@ export const ListofExpense = () => {
             <p>14:00</p>
             </div></div>
             <div className="text-green-500 mt-5 mr-5">
-              + 1,000₮
+              + 10,000₮
             </div>
             </div>
               <div className="ml-10 carousel-item mt-5  w-[895px]  h-[64px] bg-white  rounded-lg flex justify-between">
             <div className="flex">
             <h1 className="ml-5 pt-3"><FoodIcon/> </h1>
             <div className="pt-2 ml-5">
-            <h1 className="text-black ">Lending & Renting</h1>
+            <h1 className="text-black ">Food & Drinks</h1>
             <p>14:00</p>
             </div></div>
             <div className="text-red-500 mt-5 mr-5">
