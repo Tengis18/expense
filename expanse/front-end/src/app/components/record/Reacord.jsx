@@ -3,9 +3,7 @@ import { useState } from "react";
 import { PluseaIcon } from "@/svg/plus";
 import { ListofExpense } from "./ListofExpense";
 import { EyeIcon } from "@/svg/Eyes";
-import { AddCategor } from "./AddCategor";
-
-
+import { AddCategory } from "./AddCategor";
 
 const categories = [
   "Food & Drinks",
@@ -96,7 +94,7 @@ export const Record = () => {
                {showAddCategory && (
              <dialog open className="modal">
                  <div >
-                <AddCategor onClose={() => setShowAddCategory(false)} />
+                <AddCategory onClose={() => setShowAddCategory(false)} />
                   </div>
               </dialog>
                  )}
@@ -109,6 +107,7 @@ export const Record = () => {
           <ListofExpense type={selectedType} searchQuery={searchQuery} category={selectedCategory} />
         </div>
       </div>
+    
     </div>
   );
 };
