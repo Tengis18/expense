@@ -6,6 +6,7 @@ import { EyeIcon } from "@/svg/Eyes";
 import { AddCategor } from "./AddCategor";
 
 
+
 const categories = [
   "Food & Drinks",
   "Shopping",
@@ -21,7 +22,7 @@ const categories = [
 ];
 
 export const Record = () => {
- const [selectedType, setSelectedType] = useState("All");
+  const [selectedType, setSelectedType] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [showAddCategory, setShowAddCategory] = useState(false);
@@ -44,13 +45,11 @@ export const Record = () => {
             <label className="input w-[250px] h-[32px] bg-gray-100 text-black flex items-center gap-2">
               <input
                 type="text"
-                className="grow "
+                className="grow"
                 placeholder="Search"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                
               />
-             
             </label>
           </div>
 
@@ -76,34 +75,40 @@ export const Record = () => {
             <div className="flex justify-between mt-10">
               <h1 className="ml-5 text-black font-bold">Category</h1>
               <button className="mr-5 hover:text-gray-200" onClick={clearFilters}>Clear</button>
-            </div>  
+            </div>
             <div className="mt-7 ml-5 flex flex-col gap-5 z-0">
               {categories.map((category, index) => (
-                <div
-                  key={index}
-                  className="flex cursor-pointer text-black"
-                  
-                >
+                <div key={index} className="flex cursor-pointer text-black">
                   <button className="mt-1">
                     <EyeIcon />
                   </button>
                   <h1 className="ml-5">{category}</h1>
-                
                 </div>
               ))}
             </div>
-            <div className="flex ml-5 mt-10 gap-3">
-              <h1 className="mt-1 z-0 "> <PluseaIcon/> </h1>
-              <button  className="text-black hover:text-gray-500 z-0" onClick={() => setShowAddCategory(true)} >Add Category</button>
-            </div>
+            <div className="flex ml-5 mt-10 gap-3  rounded-lg">
+            <PluseaIcon className="mt-1" />
+               <button
+                className="text-black "
+                onClick={() => setShowAddCategory(true)} >
+                Add Category
+                 </button>
+               {showAddCategory && (
+             <dialog open className="modal">
+                 <div >
+                <AddCategor onClose={() => setShowAddCategory(false)} />
+                  </div>
+              </dialog>
+                 )}
+              </div>
+
           </div>
         </div>
-        <div className="z-50 ml-10"> {showAddCategory && <AddCategor onClose={() => setShowAddCategory(false)} />}</div>
-           <div className="ml-10 w-full flex items-center z-50 ">
+
+        <div className="ml-10 w-full flex items-center z-50">
           <ListofExpense type={selectedType} searchQuery={searchQuery} category={selectedCategory} />
-           
-              </div> 
-      </div>                                                                                                                                                                                                                                                 
+        </div>
       </div>
+    </div>
   );
 };
