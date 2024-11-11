@@ -77,15 +77,15 @@ export const Dashboards = () => {
     </div>
  
     <div className="w-[588px] h-[226px] flex bg-white border border-gray-200 rounded-b-xl">
-      <div className="flex">
-        <div className="flex flex-col gap-5 mt-10 ml-10">
+      <div className="flex ">
+        <div className="flex flex-col gap-5 mt-10 ml-10 text-black">
           <h1>3'000'000</h1>
           <h1>2'000'000</h1>
           <h1>1'000'000</h1>
           <h1>0</h1>
         </div>
      
-      </div>
+      </div >
         <div className="ml-5"><BarChard/></div>
     </div>
   </div>

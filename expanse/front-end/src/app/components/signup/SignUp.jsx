@@ -66,14 +66,14 @@ export const SignUp = () => {
                     type="text"
                     name="name"
                     id="name"
-                    className="w-[384px] h-[48px] bg-[#F3F4F6] pl-10 rounded-xl border border-gray-300"
+                    className="w-[384px] h-[48px] bg-[#F3F4F6] pl-10 rounded-xl border text-black border-gray-300"
                     placeholder="Name"
                   />
                   <input
                     type="text"
                     name="email"
                     id="email"
-                    className="w-[384px] h-[48px] bg-[#F3F4F6] pl-10 rounded-xl border border-gray-300"
+                    className="w-[384px] h-[48px] bg-[#F3F4F6] pl-10 rounded-xl border text-black border-gray-300"
                     placeholder="Email"
                   />
                   <div className="relative">
@@ -117,6 +117,7 @@ export const SignUp = () => {
                     </span>
                     <span ref={alertTextRef} className="text-sm pl-2"></span>
                   </div>
+                 
                   <button className="text-white text-[20px] font-bold bg-[#0166FF] hover:bg-blue-400 rounded-[20px] w-[384px] h-[48px]">
                     Sign up
                   </button>

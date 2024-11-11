@@ -1,5 +1,4 @@
 "use client"
-import { DownIcon, LeftIcon, RightIcon } from "@/svg/Right";
 import { FoodIcon, HouseIcon } from "@/svg/Home";
 
 export const ListofExpense = () => {
@@ -8,14 +7,14 @@ export const ListofExpense = () => {
     <div className="flex flex-col ">
       <div className=" ml-10 flex justify-between ">
         <div className="flex  gap-5">
-        <button className="bg-slate-300 w-[32px] h-[32px] rounded-lg flex justify-center items-center" ><LeftIcon/></button>
+ 
           <h1 className="text-black">Last 30 days</h1>
-          <button className="bg-slate-300 w-[32px] h-[32px] rounded-lg flex justify-center items-center"><RightIcon/></button>
+         
           </div>
-          <div  className=" flex gap-5  bg-white border border-[#D1D5DB] w-[180px] h-[48px] justify-center rounded-lg ">
+          {/* <div  className=" flex gap-5  bg-white border border-[#D1D5DB] w-[180px] h-[48px] justify-center rounded-lg ">
             <button className="text-black font-bold">Newest fisrt</button> 
             <button> <DownIcon/></button>
-            </div>
+            </div> */}
          </div>
          <div className="mt-14  carousel carousel-vertical h-[950px] ">
           <h1 className="ml-10 carousel-item text-black font-bold ">Today</h1> 
